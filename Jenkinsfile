@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'maven:3.3.9-alpine' } }
+    agent { docker { image 'maven:3.5-jdk-8' } }
       stages {
         stage('log version info') {
       steps {
